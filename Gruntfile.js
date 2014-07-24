@@ -28,7 +28,7 @@ module.exports = function (grunt) {
     clean: {
       init: {
         src: [
-          'bootstrap-sass',
+          // 'bootstrap-sass',  // Keep the original bootstrap-sass repo as a reference later, by guysung
           'assets/scss/_theme.scss'
         ]
       },
