@@ -177,25 +177,25 @@ module.exports = function (grunt) {
         files: [
           {
             expand: true,
-            cwd: 'bootstrap-sass/vendor/assets/',
+            cwd: 'bootstrap-sass/assets/',
             src: ['fonts/**/*'],
             dest: 'assets'
           },
           {
             expand: true,
-            cwd: 'bootstrap-sass/vendor/assets/javascripts/bootstrap',
+            cwd: 'bootstrap-sass/assets/javascripts/bootstrap',
             src: ['**/*'],
             dest: 'assets/js'
           },
           {
             expand: true,
-            cwd: 'bootstrap-sass/vendor/assets/stylesheets/bootstrap',
+            cwd: 'bootstrap-sass/assets/stylesheets/bootstrap',
             src: ['**/*'],
             dest: 'assets/scss'
           },
           {
             expand: true,
-            cwd: 'bootstrap-sass/vendor/assets/stylesheets/bootstrap',
+            cwd: 'bootstrap-sass/assets/stylesheets/bootstrap',
             src: ['_theme.scss'],
             dest: 'assets/scss/',
             rename: function(dest, src) {
@@ -214,9 +214,9 @@ module.exports = function (grunt) {
           },
           {
             expand: true,
-            cwd: './assets/vendor/',
+            cwd: './assets/',
             src: ['**/*'],
-            dest: 'dist/vendor'
+            dest: 'dist/'
           }
         ]
       }
